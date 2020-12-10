@@ -33,7 +33,7 @@ public class Weather {
             model.setMain((String) obj.get("main"));
         }
 
-        return "City:" + model.getName() + "\n" +
+        return "Город:" + model.getName() + "\n" +
                 "Temp: " + model.getTemp() + "\n"+
                 "Humidity: " + model.getHumidity() +"\n"+
                 "Main: " + model.getMain() +"\n"+

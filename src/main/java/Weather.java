@@ -34,9 +34,9 @@ public class Weather {
         }
 
         return "Город:" + model.getName() + "\n" +
-                "Temp: " + model.getTemp() + "\n"+
-                "Humidity: " + model.getHumidity() +"\n"+
-                "Main: " + model.getMain() +"\n"+
-                "http://openweathermap.org/img/wn/"+model.getIcon()+".png";
+                "Температура: " + model.getTemp() + "\n"+
+                "Влажность: " + model.getHumidity() +"\n"+
+                "Облачность: " + model.getMain() +"\n";
+                //"http://openweathermap.org/img/wn/"+model.getIcon()+".png";
     }
 }
